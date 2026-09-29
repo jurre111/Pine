@@ -14,7 +14,7 @@ struct MapThemeSettingsView: View {
                     dismiss()
                 } label: {
                     Image(systemName: "xmark.circle.fill")
-                        .frame(width: 60, height: 60)
+                        .font(.system(size: 30))
                         .foregroundColor(.secondary)
                         .symbolRenderingMode(.hierarchical)
                     // ZStack(alignment: .center) {
@@ -75,6 +75,5 @@ struct MapThemeSettingsView: View {
             }
             Spacer()
         }
-        .padding()
     }
 }
